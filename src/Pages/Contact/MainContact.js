@@ -1,0 +1,20 @@
+import React from "react";
+import Navbar from "../Layout/Navbar";
+import MainFooter from "../Layout/MainFooter";
+import Hero from "./Sections/Hero";
+import Massage from "./Sections/Massage";
+import Map from "./Sections/Map";
+
+const MainContact = () => {
+  return (
+    <div>
+      <Navbar />
+      <Hero />
+      <Map />
+      <Massage />
+      <MainFooter />
+    </div>
+  );
+};
+
+export default MainContact;
